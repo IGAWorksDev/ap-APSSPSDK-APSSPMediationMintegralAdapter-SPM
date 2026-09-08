@@ -7,6 +7,26 @@
 
 ---
 
+## 최소 요구사항
+
+| 항목 | 요구 버전 |
+|---|---|
+| **APSSPSDK (코어)** | `3.4.0` 이상 |
+| **iOS Deployment Target** | **`13.0` 이상** |
+| Swift Tools | `5.9` 이상 |
+| 네트워크 SDK | `MintegralAdSDK` |
+
+**설치**
+
+```swift
+.package(url: "https://github.com/IGAWorksDev/ap-APSSPSDK-APSSPMediationMintegralAdapter-SPM.git",
+         exact: "8010700.0.0")
+```
+
+> `Other Linker Flags` 에 **`-ObjC`** 추가 필수. 미설정 시 어댑터가 런타임에 인식되지 않습니다.
+
+---
+
 ## 8010700.0.0
 
 MintegralAdSDK `8.1.7` 대응 · SPM 개별 배포 시작
