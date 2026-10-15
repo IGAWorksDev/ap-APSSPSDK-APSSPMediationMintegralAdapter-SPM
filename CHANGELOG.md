@@ -31,6 +31,7 @@
 
 MintegralAdSDK `8.1.7` 대응
 어댑터 버전 `8.1.7.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -38,6 +39,7 @@ MintegralAdSDK `8.1.7` 대응
 
 MintegralAdSDK `8.1.7` 대응 · SPM 개별 배포 시작
 어댑터 버전 `8.1.7.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -45,6 +47,7 @@ MintegralAdSDK `8.1.7` 대응 · SPM 개별 배포 시작
 
 MintegralAdSDK `8.1.6` 대응
 어댑터 버전 `8.1.6.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -52,6 +55,7 @@ MintegralAdSDK `8.1.6` 대응
 
 MintegralAdSDK `8.1.6` 대응
 어댑터 버전 `8.1.6.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -59,6 +63,7 @@ MintegralAdSDK `8.1.6` 대응
 
 MintegralAdSDK `8.1.5` 대응
 어댑터 버전 `8.1.5.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -66,6 +71,7 @@ MintegralAdSDK `8.1.5` 대응
 
 MintegralAdSDK `8.1.5` 대응
 어댑터 버전 `8.1.5.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -73,6 +79,7 @@ MintegralAdSDK `8.1.5` 대응
 
 MintegralAdSDK `8.1.4` 대응
 어댑터 버전 `8.1.4.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -80,6 +87,7 @@ MintegralAdSDK `8.1.4` 대응
 
 MintegralAdSDK `8.1.4` 대응
 어댑터 버전 `8.1.4.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -87,6 +95,7 @@ MintegralAdSDK `8.1.4` 대응
 
 MintegralAdSDK `8.1.3` 대응
 어댑터 버전 `8.1.3.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -94,6 +103,7 @@ MintegralAdSDK `8.1.3` 대응
 
 MintegralAdSDK `8.1.3` 대응
 어댑터 버전 `8.1.3.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -101,6 +111,7 @@ MintegralAdSDK `8.1.3` 대응
 
 MintegralAdSDK `8.1.2` 대응
 어댑터 버전 `8.1.2.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -108,6 +119,7 @@ MintegralAdSDK `8.1.2` 대응
 
 MintegralAdSDK `8.1.2` 대응
 어댑터 버전 `8.1.2.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -115,6 +127,7 @@ MintegralAdSDK `8.1.2` 대응
 
 MintegralAdSDK `8.1.1` 대응
 어댑터 버전 `8.1.1.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -122,6 +135,7 @@ MintegralAdSDK `8.1.1` 대응
 
 MintegralAdSDK `8.1.1` 대응
 어댑터 버전 `8.1.1.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -129,6 +143,7 @@ MintegralAdSDK `8.1.1` 대응
 
 MintegralAdSDK `8.1.0` 대응
 어댑터 버전 `8.1.0.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -136,6 +151,7 @@ MintegralAdSDK `8.1.0` 대응
 
 MintegralAdSDK `8.1.0` 대응
 어댑터 버전 `8.1.0.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -143,6 +159,7 @@ MintegralAdSDK `8.1.0` 대응
 
 MintegralAdSDK `8.0.9` 대응
 어댑터 버전 `8.0.9.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -150,6 +167,7 @@ MintegralAdSDK `8.0.9` 대응
 
 MintegralAdSDK `8.0.9` 대응
 어댑터 버전 `8.0.9.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -157,6 +175,7 @@ MintegralAdSDK `8.0.9` 대응
 
 MintegralAdSDK `8.0.8` 대응
 어댑터 버전 `8.0.8.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -164,6 +183,7 @@ MintegralAdSDK `8.0.8` 대응
 
 MintegralAdSDK `8.0.8` 대응
 어댑터 버전 `8.0.8.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -171,6 +191,7 @@ MintegralAdSDK `8.0.8` 대응
 
 MintegralAdSDK `8.0.7` 대응
 어댑터 버전 `8.0.7.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -178,6 +199,7 @@ MintegralAdSDK `8.0.7` 대응
 
 MintegralAdSDK `8.0.7` 대응
 어댑터 버전 `8.0.7.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -185,6 +207,7 @@ MintegralAdSDK `8.0.7` 대응
 
 MintegralAdSDK `8.0.6` 대응
 어댑터 버전 `8.0.6.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -192,6 +215,7 @@ MintegralAdSDK `8.0.6` 대응
 
 MintegralAdSDK `8.0.6` 대응
 어댑터 버전 `8.0.6.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -199,6 +223,7 @@ MintegralAdSDK `8.0.6` 대응
 
 MintegralAdSDK `8.0.5` 대응
 어댑터 버전 `8.0.5.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -206,6 +231,7 @@ MintegralAdSDK `8.0.5` 대응
 
 MintegralAdSDK `8.0.5` 대응
 어댑터 버전 `8.0.5.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -213,6 +239,7 @@ MintegralAdSDK `8.0.5` 대응
 
 MintegralAdSDK `8.0.4` 대응
 어댑터 버전 `8.0.4.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -220,6 +247,7 @@ MintegralAdSDK `8.0.4` 대응
 
 MintegralAdSDK `8.0.4` 대응
 어댑터 버전 `8.0.4.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -227,6 +255,7 @@ MintegralAdSDK `8.0.4` 대응
 
 MintegralAdSDK `8.0.3` 대응
 어댑터 버전 `8.0.3.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -234,6 +263,7 @@ MintegralAdSDK `8.0.3` 대응
 
 MintegralAdSDK `8.0.3` 대응
 어댑터 버전 `8.0.3.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -241,6 +271,7 @@ MintegralAdSDK `8.0.3` 대응
 
 MintegralAdSDK `8.0.2` 대응
 어댑터 버전 `8.0.2.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -248,6 +279,7 @@ MintegralAdSDK `8.0.2` 대응
 
 MintegralAdSDK `8.0.2` 대응
 어댑터 버전 `8.0.2.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -255,6 +287,7 @@ MintegralAdSDK `8.0.2` 대응
 
 MintegralAdSDK `8.0.1` 대응
 어댑터 버전 `8.0.1.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -262,6 +295,7 @@ MintegralAdSDK `8.0.1` 대응
 
 MintegralAdSDK `8.0.1` 대응
 어댑터 버전 `8.0.1.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -269,6 +303,7 @@ MintegralAdSDK `8.0.1` 대응
 
 MintegralAdSDK `8.0.0` 대응
 어댑터 버전 `8.0.0.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -276,6 +311,7 @@ MintegralAdSDK `8.0.0` 대응
 
 MintegralAdSDK `8.0.0` 대응
 어댑터 버전 `8.0.0.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
