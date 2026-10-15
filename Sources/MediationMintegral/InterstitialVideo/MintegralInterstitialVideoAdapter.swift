@@ -14,10 +14,14 @@ final public class MintegralInterstitialVideoAdapter: APSSPInterstitialVideoAdap
    
     private var interstitialVideoAd: MintegralMediationInterstitialVideoAd?
     
-    public var delegate: APSSPInterstitialVideoAdapterDelegate?
+    public weak var delegate: APSSPInterstitialVideoAdapterDelegate?
     
-    public var rootViewController: UIViewController?
+    public weak var rootViewController: UIViewController?
     
+    deinit {
+        APLogger.debug("MintegralInterstitialVideoAdapter deinit")
+    }
+
     public init(placementDic: [String: String], rootViewController: UIViewController?, info: [String : Any?]) {
         let placementId = placementDic[APSSPPlacementKey.mintegralPlacementId.rawValue] ?? ""
         let unitID = placementDic[APSSPPlacementKey.mintegralUnitId.rawValue] ?? ""

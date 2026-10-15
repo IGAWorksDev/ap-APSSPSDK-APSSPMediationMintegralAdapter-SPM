@@ -13,7 +13,7 @@ import MTGSDKNewInterstitial
 
 final class MintegralMediationInterstitialVideoAd: NSObject {
     
-    var delegate: APSSPInterstitialVideoAdapterDelegate?
+    weak var delegate: APSSPInterstitialVideoAdapterDelegate?
     
     private var interstitialVideo: MTGNewInterstitialAdManager?
     

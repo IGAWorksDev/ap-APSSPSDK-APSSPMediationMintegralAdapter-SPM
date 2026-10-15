@@ -17,7 +17,7 @@ final public class MintegralNativeAdapter: APSSPNativeAdapterInappBiddingProtoco
     
     weak public var delegate: APSSPNativeViewAdapterDelegate?
     
-    public var rootViewController: UIViewController?
+    public weak var rootViewController: UIViewController?
     
     private var nativeAdView: MintegralMediationNativeAdView
     

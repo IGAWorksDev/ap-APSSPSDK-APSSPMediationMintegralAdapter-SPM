@@ -13,7 +13,7 @@ import MTGSDKReward
 
 final class MintegralMediationRewardVideoAd: NSObject {
     
-    var delegate: APSSPRewardVideoAdapterDelegate?
+    weak var delegate: APSSPRewardVideoAdapterDelegate?
     
     private let placementId: String
     
@@ -21,7 +21,7 @@ final class MintegralMediationRewardVideoAd: NSObject {
     
     private let rewardID: String
     
-    private let rootViewController: UIViewController?
+    private weak var rootViewController: UIViewController?
     
     private var rewardVideoAd = MTGRewardAdManager.sharedInstance()
     
@@ -88,8 +88,28 @@ extension MintegralMediationRewardVideoAd: MTGRewardAdLoadDelegate, MTGRewardAdS
         delegate?.rewardVideoClosed(message: "Mintegral RewardVideo Closed")
     }
     
+    /// 광고 종료. `converted` 가 리워드 인정 여부다. **완료 통보는 이 콜백을 기준으로 한다.**
+    ///
+    /// 이전에는 `onVideoPlayCompleted`(영상 재생 완료)에서 무조건 완료를 통보해
+    /// 리워드 미인정 건도 완료로 계상됐다 — 과다 정산 소지.
+    /// ObjC(`MintegralAdapter.m:567`) / AOS(`MintegralAdapter.java:625 rewardInfo.isCompleteView()`)
+    /// 와 동일하게 `converted` 를 반영한다.
+    ///
+    /// - Note: `converted == false`(미완주)는 현재 전달 수단이 없다.
+    ///   `rewardVideoCompleted()` 에 완료 여부 파라미터가 없어 ObjC
+    ///   `onCompleteTrackingEvent:isCompleted:` 처럼 false 를 보낼 수 없다.
+    ///   프로토콜 시그니처 확장은 별도 과제.
+    func onVideoAdDismissed(_ placementId: String?, unitId: String?,
+                            withConverted converted: Bool, withRewardInfo rewardInfo: MTGRewardAdInfo?) {
+        APLogger.debug("Mintegral RewardVideo dismissed, converted: \(converted)")
+        if converted {
+            delegate?.rewardVideoCompleted()
+        }
+    }
+
+    /// 영상 재생 완료. 리워드 인정과는 별개다. 완료 통보는 `onVideoAdDismissed` 에서 한다.
     func onVideoPlayCompleted(_ placementId: String?, unitId: String?) {
-        delegate?.rewardVideoCompleted()
+        APLogger.debug("Mintegral RewardVideo videoPlayCompleted")
     }
 
 }

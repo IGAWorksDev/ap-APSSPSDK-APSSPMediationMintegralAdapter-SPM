@@ -55,7 +55,7 @@ final class MintegralMediationNativeAdView: UIView {
     
     private let unitID: String
     
-    private let rootViewController: UIViewController?
+    private weak var rootViewController: UIViewController?
     private var biddingData: String?
     
     
